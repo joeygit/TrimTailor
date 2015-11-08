@@ -1,0 +1,123 @@
+﻿@model IEnumerable<TrimTailor.Models.Profile>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TrimUser.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.created_at)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.updated_at)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_waist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_stomach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_shoulders)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_neck)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_chest)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_torso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_inseam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_rightarm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_leftarm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_necktoshoulder)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_heightft)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_heightin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mes_weight)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrimUser.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.created_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.updated_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_waist)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_stomach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_shoulders)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_neck)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_chest)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_torso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_inseam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_rightarm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_leftarm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_necktoshoulder)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_heightft)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_heightin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mes_weight)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TrimUserId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TrimUserId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TrimUserId })
+        </td>
+    </tr>
+}
+
+</table>

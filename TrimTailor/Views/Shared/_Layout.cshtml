@@ -25,10 +25,7 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
-                @if (Model is TrimTailor.Models.TrimUser)
-                {
                    @Html.Partial("_LoginPartial")
-                }
             </div>
         </div>
     </div>

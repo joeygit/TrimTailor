@@ -1,5 +1,4 @@
 ﻿@using Microsoft.AspNet.Identity
-@model TrimTailor.Models.TrimUser
 @if (Request.IsAuthenticated)
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
@@ -11,16 +10,10 @@
             @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
         </li>
         <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
-        @if (!(Model == null))
-        {
-            if ((Model.Profile == null))
-            {
+
               <li>@Html.ActionLink("Create Profile", "Create", "Profiles")</li>
-            }
-            else
-            {
-           <li>@Html.ActionLink("Edit Profile", "Edit", "Profiles", routeValues: new { id = Model.Id }, htmlAttributes: null)</li>
-            }
+     
+    <li>@Html.ActionLink("Edit Profile", "Edit", "Profiles", routeValues: new { id = Model.Id }, htmlAttributes: null)</li>
         }
     </ul>
     }

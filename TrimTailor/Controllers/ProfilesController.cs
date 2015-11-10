@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity;
+﻿
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -52,7 +53,11 @@ namespace TrimTailor.Controllers
         {
             var manager = new UserManager<TrimUser>(new UserStore<TrimUser>(db));
             var currentUser = manager.FindById(User.Identity.GetUserId());
-            if (!(currentUser.Profile == null))
+            if (currentUser == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }    
+                if (!(currentUser.Profile == null))
             {
                return RedirectToAction("Edit", new { id = currentUser.Profile.TrimUserId });
             }

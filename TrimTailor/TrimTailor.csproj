@@ -202,6 +202,7 @@
     <Content Include="Content\Images\downloads-bg.jpg" />
     <Content Include="Content\Images\intro-bg.jpg" />
     <Content Include="Content\Images\map-marker.png" />
+    <Content Include="Content\Images\white-brick2.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

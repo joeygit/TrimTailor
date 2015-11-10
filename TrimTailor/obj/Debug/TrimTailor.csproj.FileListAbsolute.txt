@@ -70,4 +70,3 @@ C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Deb
 C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Debug\TrimTailor.csproj.GenerateResource.Cache
 C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Debug\TrimTailor.dll
 C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Debug\TrimTailor.pdb
-C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Debug\TrimTailor.csprojResolveAssemblyReference.cache

@@ -71,3 +71,8 @@ C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Rel
 C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Release\TrimTailor.csproj.GenerateResource.Cache
 C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Release\TrimTailor.dll
 C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\obj\Release\TrimTailor.pdb
+C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\bin\Mvc.RazorTools.dll
+C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\bin\Mvc.RazorTools.FontAwesome.dll
+C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\bin\WebActivatorEx.dll
+C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\bin\Mvc.RazorTools.xml
+C:\Users\Joe\documents\visual studio 2015\Projects\TrimTailor\TrimTailor\bin\Mvc.RazorTools.FontAwesome.xml
